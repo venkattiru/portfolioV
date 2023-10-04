@@ -75,7 +75,7 @@ font-family: 'Raleway', sans-serif;
   padding: 0 5px;;
     justify-content: space-between;
     width:-webkit-fill-available;
-    position: absolute;
+    position: relative;
   bottom: 0;
     background: linear-gradient(135deg, #d3d2e0, transparent);
 }
@@ -141,6 +141,10 @@ font-family: 'Raleway', sans-serif;
   padding: calc(1em / 32);
   -webkit-text-stroke-color: transparent;
   -webkit-text-stroke-width: calc(1em / 16);
+ }
+
+ section[class*='TimelineItemContentWrapper'] {
+  min-height: auto;
  }
 
 /* .wave-container {  
