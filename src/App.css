@@ -133,15 +133,33 @@ font-family: 'Raleway', sans-serif;
   }
 }
  .hero-name {
-  background-clip: text;
-  background-image: linear-gradient(to right, #2d35cc, #dc7602, #178b08, #fed90f);
-  color: #fff;
+  /* background-clip: text;
+  background-image: linear-gradient(to right, #2d35cc, #dc7602, #178b08, #fed90f); */
+  color: rgb(8, 137, 8);
   font-weight: 700;
   letter-spacing: calc(1em / 8);
   padding: calc(1em / 32);
   -webkit-text-stroke-color: transparent;
   -webkit-text-stroke-width: calc(1em / 16);
+  animation: text-color 5s ease-in-out infinite;
  }
+
+@keyframes text-color {
+  0% {
+    color: #7f85d8;
+  }
+  50% {
+    color: #888ea9;
+  }
+  75% {
+    color: #4459a7;
+    
+  }
+  100% {
+    color: #a90b0b;
+  }
+}
+
 
  section[class*='TimelineItemContentWrapper'] {
   min-height: auto;

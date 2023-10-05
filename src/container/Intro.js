@@ -13,7 +13,7 @@ const Intro = () => {
             <div style={{display: 'flex', alignItems: "center", fontSize:'32px'}}>
             <p style={{margin: '2px 10px 2px 2px'}}>I am </p>
             <TypewriterComponent options={{
-                strings: ['a senior software engineer', 'a front end developer', 'a react developer', 'a web developer', 'a learner'],
+                strings: ['a senior software engineer', 'a front end developer', 'a react developer','a MERN developer', 'a web developer', 'a learner'],
                 autoStart: true,
                 loop: true,
             }}
