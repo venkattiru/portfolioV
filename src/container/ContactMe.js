@@ -8,7 +8,7 @@ const ContactMe = () => {
         setCopy(true);
     }
     return (
-        <section id="contactme" style={{padding: '10px 0'}}>
+        <section id="contact" style={{padding: '10px 0'}}>
             <div style={{display: 'flex', justifyContent: 'center', padding: '10px 0'}}>Contact/follow me on</div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <a href="https://www.linkedin.com/in/venkatesh-tiruveedhi" target="_blank" rel="noopener noreferrer" style={{outlineColor: '#087ea4', padding: '10px'}} title="Linked In Profile">
